@@ -1,0 +1,27 @@
+{
+  "name": "acats-lp",
+  "version": "1.0.0",
+  "authors": [
+    "dotgroup"
+  ],
+  "description": "ACATS Landing Page",
+  "license": "private",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "bootstrap": "~3.3.6"
+  },
+  "overrides" : {
+     "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css"
+      ]
+    }
+  }
+}
